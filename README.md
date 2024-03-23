@@ -62,7 +62,7 @@ These indices corresponding to the indices of the organs in the BTCV dataset. Fo
 
 ## Generating Segmentation Masks
 
-Segmentation masks are generated for each input image using the bounding box prompts. Finally, the generated masks are stiched together to create the 3D NIfTI volume.
+Segmentation masks are generated for each input image using the bounding box prompts. Finally, the generated masks are stiched together to create the 3D NIfTI volume. The code is provided in [crowdsourcing.py](./src/crowdsourcing.py) and [analysis.ipynb](./analysis.ipynb).
 
 # Results
 
