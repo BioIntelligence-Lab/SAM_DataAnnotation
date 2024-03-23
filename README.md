@@ -51,14 +51,14 @@ Place all SAM checkpoints under [checkpoints/](./checkpoints/). The code include
 We use the [OpenLabeling tool](https://github.com/Cartucho/OpenLabeling) to crowd-source annotations using images in the [input/](./input/) folder and stores all resulting bounding box prompts in the YOLO format under [input/prompt/](./input/prompt/). The following indices correspond to the organs of interest for our analysis:
 
 ```python
-0 => Aorta
+0 => Spleen
 1 => Right Kidney
 2 => Left Kidney
 5 => Liver
 7 => Aorta
 ```
 
-These indices corresponding to the indices of the organs in the BTCV dataset. For example, the aorta has index `0` in our prompt, which corresponds to index of `1` in the ground-truth annotations (where `0` is background).
+These indices corresponding to the indices of the organs in the BTCV dataset. For example, the spleen has index `0` in our prompt, which corresponds to index of `1` in the ground-truth annotations (where `0` is background).
 
 ## Generating Segmentation Masks
 
