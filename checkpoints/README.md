@@ -1,0 +1,1 @@
+Paste SAM model checkpoints in this folder.
